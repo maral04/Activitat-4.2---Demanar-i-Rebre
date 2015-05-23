@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demanar I Rebre</title>
+		<link href="style.css" rel="stylesheet" type="text/css" media="all" /> 
+		<link href="colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script src="colorbox/jquery.colorbox-min.js"></script>
+		<script src="jflickrfeed.js"></script>
+		<script src="setup.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Demanar I Rebre</h1>
+	
+			<h3>Buscador d'Imatges a Flickr mitjançant USER ID</h3>
+			
+			<p>Pots buscar l'ID de l'usuari amb la seguent pàgina:</p>
+			<FORM METHOD="LINK" target="_blank" ACTION="http://idgettr.com/">
+				<INPUT TYPE="submit" VALUE="Troba l'ID">
+			</FORM>
+			<p>Proporciona l'id d'un usuari per a cercar les seves imatges:</p>
+			<input type="text" id="idusuari" placeholder="12403504@N02"> </input>
+			<button id="btniduser">Cerca</button>
+			<button id="cleanImg" style="margin-left:7%;">Neteja</button>
+			<label style="font-size:11px;">Neteja totes les Imatges</label>
+			</br></br>
+			<ul id="flickrcontent" class="thumbs"></ul>
+		</div>
+	</body>
+</html>
