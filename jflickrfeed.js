@@ -11,7 +11,7 @@
 		settings = $.extend(true, {
 			flickrbase: 'http://api.flickr.com/services/feeds/',
 			feedapi: 'photos_public.gne',
-			limit: 20,
+			limit: 24,
 			qstrings: {
 				lang: 'en-us',
 				format: 'json',
