@@ -2,10 +2,6 @@ $(document).ready(function(){
 	
 	$('#btniduser').click(function() {
 		var iduserimg = $('#idusuari').val();
-		//console.log(iduserimg);
-		//$('#flickrcontent').append('<ul id="cbox" class="thumbs"></ul>');
-		//$('#flickrcontent').insertAfter('<ul id="cbox" class="thumbs"></ul>');
-		$('#flickrcontent').attr('id','cbox');
 		$().pam(iduserimg);
 	});
 	
