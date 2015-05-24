@@ -13,17 +13,26 @@
 		<div id="container">
 			<h1>Demanar I Rebre</h1>
 	
-			<h3>Buscador d'Imatges a Flickr mitjançant USER ID</h3>
+			<h3>Buscador d'Imatges a Flickr mitjançant USER ID <!-- i Filtratje per TAG--></h3>
 			
 			<p>Pots buscar l'ID de l'usuari amb la seguent pàgina:</p>
 			<FORM METHOD="LINK" target="_blank" ACTION="http://idgettr.com/">
-				<INPUT TYPE="submit" VALUE="Troba l'ID">
+				<INPUT TYPE="submit" style="width:10%;" VALUE="Troba l'ID">
 			</FORM>
-			<p>Proporciona l'id d'un usuari per a cercar les seves imatges:</p>
+			<p>Proporciona l'id d'un usuari per a cercar les seves imatges.</p>
 			<input type="text" id="idusuari" placeholder="12403504@N02"> </input>
-			<button id="btniduser">Cerca</button>
-			<button id="cleanImg" style="margin-left:7%;">Neteja</button>
+			<button id="btniduser" style="width:10%;">Cerca</button>
+			<button id="cleanImg" style="margin-left:7%;width:10%;">Neteja</button>
 			<label style="font-size:11px;">Neteja totes les Imatges</label>
+<!-- 
+			</br></br>
+			
+			<input type="text" id="tagfilter" placeholder="Gatitos"> </input>
+			<button id="btntag" style="width:10%;">Filtra</button> 
+			
+			<button id="cleanImg" style="margin-left:7%;width:10%;">Neteja</button>
+			<label style="font-size:11px;">Neteja totes les Imatges</label>-->
+			
 			</br></br>
 			<ul id="cbox" class="thumbs"></ul>
 		</div>
